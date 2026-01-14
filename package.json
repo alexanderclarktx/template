@@ -3,6 +3,8 @@
   "private": true,
   "workspaces": ["core", "web"],
   "scripts": {
+    "branch": "git checkout main && git pull && git branch -D $(whoami) ; git checkout -b $(whoami)",
+    "b": "branch",
     "dev": "bun --hot web/app.ts",
     "start": "bun run core/main.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit"

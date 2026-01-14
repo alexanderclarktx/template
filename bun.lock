@@ -8,13 +8,13 @@
         "bun-types": "^1.3.6",
       },
       "devDependencies": {
-        "@template/core": "0.1.1",
+        "@template/core": "0.1.2",
         "typescript": "^5.4.0",
       },
     },
     "core": {
       "name": "@template/core",
-      "version": "0.1.1",
+      "version": "0.1.2",
     },
     "web": {
       "name": "@template/web",

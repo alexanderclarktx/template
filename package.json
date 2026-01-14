@@ -4,10 +4,12 @@
   "workspaces": ["core", "web"],
   "scripts": {
     "branch": "git checkout main && git pull && git branch -D $(whoami) ; git checkout -b $(whoami)",
-    "b": "branch",
+    "b": "bun branch",
     "dev": "bun --hot web/app.ts",
     "start": "bun run core/main.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "wip": "git add . && git commit -m 'wip' && git push",
+    "w": "bun wip"
   },
   "devDependencies": {
     "typescript": "^5.4.0"

@@ -1,2 +1,2 @@
-export * from "./api/Api";
-export * from "./util/AppUtil";
+export * from "./api/Api"
+export * from "./util/AppUtil"

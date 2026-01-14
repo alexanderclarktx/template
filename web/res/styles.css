@@ -1,7 +1,6 @@
 :root {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  color: #101820;
-  background: #f6f7f9;
+  background-color: #101820;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
 }
 
 #app {
-  background: #ffffff;
+  background-color: #202020;
   border-radius: 12px;
   padding: 1.5rem 2rem;
   box-shadow: 0 10px 30px rgba(16, 24, 32, 0.12);

@@ -1,4 +1,4 @@
-import { formatUptime } from "../util/AppUtil";
+import { formatUptime } from "@template/core"
 
 export function createApiServer() {
   const server = Bun.serve({

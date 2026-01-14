@@ -16,8 +16,9 @@ Run these from the repo root:
 ## Coding Style & Naming Conventions
 - Use 2-space indentation for TypeScript and CSS.
 - Keep filenames and directories lowercase (`core/util/AppUtil.ts` is the exception; preserve existing casing when extending it).
-- Prefer explicit, descriptive names for exports (for example, `createApiServer` vs. `server`).
-- There is no formatter or linter configured yet; keep changes consistent with existing files.
+- do not use `class`. instead create a `type` and corresponding function (with the same name) to return an instance of the type
+- do not end lines with semicolons
+- do not use `function`. instead create arrow functions
 
 ## Testing Guidelines
 - No test framework is configured yet. If you add tests, document the tool and command in this file.

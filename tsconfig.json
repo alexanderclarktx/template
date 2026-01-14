@@ -1,0 +1,29 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",
+//     "module": "ESNext",
+//     "moduleResolution": "Bundler",
+//     "strict": true,
+//     "noEmit": true,
+//     "skipLibCheck": true
+//   }
+// }
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noEmit": true,
+    "types": ["bun-types"],
+    "sourceMap": true,
+    "stripInternal": true,
+    "skipLibCheck": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "paths": { "*": ["node_modules/*"] },
+    "baseUrl": "."
+  },
+  "include": ["core/**/*", "web/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "template",
+  "private": true,
+  "workspaces": ["core", "web"],
+  "scripts": {
+    "dev": "bun --hot web/app.ts",
+    "start": "bun run core/main.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

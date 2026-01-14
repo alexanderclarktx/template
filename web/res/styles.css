@@ -1,0 +1,21 @@
+:root {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #101820;
+  background: #f6f7f9;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+#app {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 10px 30px rgba(16, 24, 32, 0.12);
+}
+
+h1 {
+  margin-top: 0;
+}

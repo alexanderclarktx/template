@@ -5,7 +5,7 @@
     "dev": "bun dev-compile & bun dev-serve",
     "dev-compile": "bun build --watch src/index.tsx --outdir res",
     "dev-serve": "bun x serve -L -p 5000 res",
-    "build": "bun build --minify src/index.tsx --outdir res"
+    "build": "bun build --production src/index.tsx --outdir res"
   },
   "devDependencies": {
     "@types/react": "^19.2.2",

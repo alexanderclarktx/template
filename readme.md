@@ -36,7 +36,7 @@ Minimal Bun monorepo with a shared core library, a web UI, and an HTTP API.
 - `web/res/index.js` - browser bundle output from Bun build
 
 ## Generated static site (`docs/`)
-- `docs/index.html`, `docs/styles.css`, `docs/index.js`, `docs/app.js` - built files published by `bun run ship`
+- `docs/index.html`, `docs/styles.css`, `docs/index.js` - built files published by `bun ship`
 
 ## Extra
 - `readme.md` - project overview and quickstart

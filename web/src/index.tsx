@@ -1,7 +1,9 @@
 import { createRoot } from "react-dom/client"
 
 const App = () => {
-  return <main>Hello from React</main>
+  return <main>
+    <h1 style={{ textAlign: "center"}}>Template</h1>
+  </main>
 }
 
 const mountNode = document.getElementById("app") ?? (() => {

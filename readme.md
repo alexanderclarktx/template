@@ -2,10 +2,26 @@
 
 Minimal Bun monorepo with a shared core library, a web UI, and an HTTP API.
 
-## Quickstart
-- Install deps: `bun install`
-- Run API + web: `bun dev`
-- Typecheck: `bun typecheck`
+## Dev
+```bash
+# install deps
+bun install
+
+# run api + web
+bun dev
+
+# typecheck
+bun typecheck
+
+# checkout and new branch
+bun b
+
+# commit and push
+bun wip
+
+# compile, commit, and push
+bun ship
+```
 
 # Structure
 
